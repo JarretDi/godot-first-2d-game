@@ -1,6 +1,6 @@
 [gd_scene load_steps=10 format=3 uid="uid://cwnn52bq4mdl2"]
 
-[ext_resource type="Script" path="res://mob.gd" id="1_42yxn"]
+[ext_resource type="Script" uid="uid://bpphvy8a8a2lt" path="res://mob.gd" id="1_42yxn"]
 [ext_resource type="Texture2D" uid="uid://cb6qkrosci6ww" path="res://art/enemyFlyingAlt_1.png" id="1_t7sgg"]
 [ext_resource type="Texture2D" uid="uid://c1kftywo2iid" path="res://art/enemyFlyingAlt_2.png" id="2_x7yrr"]
 [ext_resource type="Texture2D" uid="uid://b3mui4weqjrvu" path="res://art/enemySwimming_1.png" id="3_xf1yp"]
@@ -48,7 +48,7 @@ animations = [{
 radius = 45.3333
 height = 133.333
 
-[node name="Mob" type="RigidBody2D"]
+[node name="Mob" type="RigidBody2D" groups=["mobs"]]
 scale = Vector2(0.75, 0.75)
 collision_mask = 0
 gravity_scale = 0.0
